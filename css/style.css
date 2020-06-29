@@ -1,0 +1,79 @@
+*{
+	Padding:0px;
+	Margin:0px;
+	box-sizing: border-box;
+}
+Body{
+	background: url(../img/apc.jpg) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+    width: 500px;
+    margin: 8% auto;
+}
+.login-form{
+	padding:15px
+	border-radious: 25px
+	box-shadow: 2px 2px 10px #yellow;
+	background-color: #42809bb3;
+}
+.login-form img{
+    margin: 180px auto;
+    display: block;
+    width: 220px;
+    height: 160px;
+    border-bottom: 4px solid #fff;
+    border-radius: 10px;
+}
+.login-form h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.form-control input {
+    width: 92%;
+    height: 32px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background: linear-gradient(#1b3355,rgba(0,0,0,0.3));
+    color: #fff9;
+    font-size: 15px;
+}
+.form-extra {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.form-extra a {
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.form-extra a:hover {
+    border-bottom: 1px solid #ffbc3e;
+    color: #ffbc3e;
+}
+.btn{
+    padding: 10px 40px;
+    background: #1b3355;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background:#fa960c;
+    cursor: pointer;
+}
